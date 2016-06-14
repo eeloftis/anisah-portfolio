@@ -32,6 +32,7 @@ html {
 body {
 	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
+	background-color:#404041;
 }
 /* clear */
 .clear:before,
@@ -111,9 +112,79 @@ input:focus {
 
 
 /*------------------------------------*\
-    IMAGES
+    Work Section
 \*------------------------------------*/
 
+#work{
+	background-color:#e6e7e8;border-top:15px solid #066a87;
+
+
+}
+
+.work-row-3 {
+	display:block;
+	margin: 0 auto;
+	max-width: 1020px;
+	padding-left:10px;
+}
+
+.work-row-2 {
+	display:block;
+	margin: 0 auto;
+	max-width: 680px;
+	padding-left:20px;
+	padding-top:70px;
+	padding-bottom:100px;
+}
+
+
+.work-circle {
+	width:300px;
+	height:300px;
+	border-radius:100%;
+	margin-right: 50px;
+		display:inline-block;
+}
+
+.work-circle:last-child {
+	margin-right: 0;
+
+}
+
+.work-image {
+	width:280px;height:280px;border-radius:100%;background-size:cover;background-repeat:no-repeat;position:relative;
+	left:10px;top:10px;background-positon: 0 0;
+}
+
+.work-hover {
+width:280px;height:280px;border-radius:100%;
+position:relative;
+	 opacity: 0;
+	 transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+ }
+
+
+
+.work-hover:hover {
+
+	opacity: .9;
+ }
+
+.work-label {
+
+	position:absolute;
+	top:15%;
+	width: 100%;
+}
+
+
+#about{
+	background-color:#e6e7e8;border-top:15px solid #a8203e;
+	padding-bottom:50px;
+
+}
 
 
 /*------------------------------------*\
@@ -121,15 +192,88 @@ input:focus {
 \*------------------------------------*/
 
 @font-face {
-	font-family:'Font-Name';
-	src:url('fonts/font-name.eot');
-	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-		url('fonts/font-name.woff') format('woff'),
-		url('fonts/font-name.ttf') format('truetype'),
-		url('fonts/font-name.svg#font-name') format('svg');
+	font-family:'CanterBold';
+	src:url('fonts/Canter Bold 3d.otf');
     font-weight:normal;
     font-style:normal;
 }
+
+
+h1, h2, h3, h4, h5 {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 35px;
+
+}
+
+h2 {
+	font-size: 25px;
+
+}
+
+h3 {
+
+		font-family:'CanterBold';
+		font-size: 55px;
+		color: #a0a1a2;
+		text-align:center;
+		margin-bottom: 20px;
+}
+
+
+h4 {
+
+		font-family:'CanterBold';
+		font-size: 50px;
+		color: #fff;
+		text-align:center;
+		margin-bottom:0;
+		line-height:43px;
+
+}
+
+h5 {
+
+	font-size: 15px;
+	font-family:'Quicksand';
+font-weight: 400;
+	color: #fff;
+	text-align:center;
+	margin-top:10px;
+
+	text-transform:  uppercase;
+
+}
+
+p{
+
+	font-size: 15px;
+	font-family:'Quicksand';
+font-weight: 400;
+margin-top: 0;
+margin-bottom:20px;
+color: #69696a;
+
+
+
+
+}
+
+.copyright{
+	font-family:'Quicksand';
+font-weight: 300;
+text-align: center;
+color: #fff;
+font-size: 12px;
+padding-top:10px;
+
+}
+
+
 
 /*------------------------------------*\
     RESPONSIVE

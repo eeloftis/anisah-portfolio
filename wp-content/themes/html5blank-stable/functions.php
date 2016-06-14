@@ -449,4 +449,14 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
     return '<h2>' . $content . '</h2>';
 }
 
+function wptuts_scripts_basic()
+{
+
+// Register the script like this for a theme:
+wp_register_script( 'parallax', get_template_directory_uri() . '/js/parallax.js' );
+
+// For either a plugin or a theme, you can then enqueue the script:
+wp_enqueue_script( 'parallax' );
+}
+add_action( 'wp_enqueue_scripts', 'wptuts_scripts_basic' );
 ?>
