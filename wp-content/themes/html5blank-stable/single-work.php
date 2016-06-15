@@ -4,8 +4,8 @@
 	<!-- section -->
 	<section >
 
-    <img class="work-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_lightblue.png">
-<div style="position:relative;top:-50px;">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="work-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_lightblue.png"></a>
+<div style="position:relative;top:-70px;">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 

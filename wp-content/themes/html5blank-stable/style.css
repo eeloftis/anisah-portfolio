@@ -252,14 +252,15 @@ height: 689px;
 	font-family: 'CanterBold';
 	font-size: 40px;
 	text-transform: uppercase;
-
+	margin-top:60px;
+	line-height: 44px;
 }
 
 #work-interior p {
 	color: #404041;
 font-family: 'Quicksand';
 font-size: 15px;
-
+font-weight: 400;
 }
 
 #work-interior .right-column {
