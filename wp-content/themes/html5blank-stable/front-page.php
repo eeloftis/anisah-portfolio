@@ -33,7 +33,7 @@
         </div>
 
         <div class="work-circle" style="background-color:#a8203e;">
-              <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
+              <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/AGShomepage.jpg');" >
                 <div class="work-hover" style="background-color:#a8203e;">
                   <div class="work-label">
                   <h4>afaxys gpo</h4>
@@ -43,7 +43,7 @@
               </div>
           </div>
           <div class="work-circle" style="background-color:#f4ab1b;">
-            <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
+            <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/lottery_homepage.png');" >
                 <div class="work-hover" style="background-color:#f4ab1b;">
                   <div class="work-label">
                   <h4 style="color:#000;">massachusetts<br>state lottery</h4>
@@ -56,7 +56,7 @@
 
         <div class="work-row-2 clear">
            <div class="work-circle" style="background-color:#066a87;">
-              <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
+              <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/holidaychefs.jpg');background-position:0 -200px;" >
                         <div class="work-hover" style="background-color:#066a87;">
                           <div class="work-label">
 
@@ -68,7 +68,7 @@
                   </div>
 
                   <div class="work-circle" style="background-color:#e55354;">
-                      <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
+                      <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/megmakescakes.png');background-color:#E6E7E8;" >
                         <div class="work-hover" style="background-color:#e55354;">
                           <div class="work-label">
 
@@ -97,7 +97,10 @@
 
 <p>When I’m not designing websites or trying to solve the world’s issues, I’m usually with friends trying to find the next best brunch spot in Boston, picking up pieces for whatever next DIY project I’ve got going on, or playing racquetball at the local Y.</p>
 
-<p>This site was designed by me, and coded by my friend Ema Loftis. (Thanks Ema!) Check out all the other cool stuff she does <a href="http://www.emilyloftis.com/" target="_blank">here</a>.</p>
+
+
+
+<p style="padding-top:30px;">This site was designed by me, and coded by my friend Ema Loftis. (Thanks Ema!) Check out all the other cool stuff she does <a href="http://www.emilyloftis.com/" target="_blank">here</a>.</p>
 
       </div>
 
