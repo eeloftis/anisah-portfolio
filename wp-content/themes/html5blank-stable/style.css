@@ -371,7 +371,7 @@ a:hover {
 @media only screen and (min-width:768px) {
 
 }
-@media only screen and (min-width:1024px) {
+@media only screen and (max-width:1024px) {
 
 	.left-column, .right-column {
  	float: none !important;
