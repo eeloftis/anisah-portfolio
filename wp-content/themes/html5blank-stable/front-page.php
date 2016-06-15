@@ -18,6 +18,7 @@
       <h3>Work</h3>
 
       <div class="work-row-3 clear">
+        <a href="http://www.emilyloftis.com/anisah-portfolio/work/bvi-tourism-website/">
         <div class="work-circle" style="background-color:#2ab1bb;">
           <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
             <div class="work-hover" style="background-color:#2ab1bb;">
@@ -28,6 +29,7 @@
             </div>
           </div>
         </div>
+      </a>
         <div class="work-circle" style="background-color:#a8203e;">
               <div class="work-image" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/BVi.jpg');" >
                 <div class="work-hover" style="background-color:#a8203e;">
