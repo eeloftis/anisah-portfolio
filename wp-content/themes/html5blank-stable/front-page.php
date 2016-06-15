@@ -14,7 +14,7 @@
 	  </section>
 
 
-    <section id="work" >
+    <section id="work"  class="clear">
       <h3>Work</h3>
 
       <div class="work-row-3 clear">
@@ -88,10 +88,10 @@
 
       <div class="left-column">
 
-                  <div style="padding-top: 68px;">  <img src="<?php echo get_template_directory_uri(); ?>/img/anisah.png" style=""></div>
+                  <div style="padding-top: 68px;">  <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/img/anisah.png" style=""></div>
       </div>
       <div class="right-column">
-    <h3 style="text-align:left;">About Me</h3>
+    <h3>About Me</h3>
 
     <p>Oh hey. I’m a designer/junior art director, based out of Boston, MA. Like most creatives, I love making things pretty. My dream is to use that and do something fantastic. Like solve world hunger! Or fix global warming! Dream big right?</p>
 
